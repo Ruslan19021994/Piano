@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/piano.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piano</title>
+    <link rel="stylesheet" href="./main.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+      <h1>Piano</h1>
+      <div class="column volume-slider">
+        <span class="volume">Volume</span><input type="range" min="0" max="1" value="0.5" step="any">
+      </div>
+      <div class="columl key-checkbox">
+        <span class="show-key">Show key</span><input type="checkbox">
+    </div>
+  </div>
+      <ul class="piano-key">
+        <li class="key white" data-key="65"><span>A</span></li>
+        <li class="key black" data-key="87"><span>W</span></li>
+        <li class="key white" data-key="83"><span>S</span></li>
+        <li class="key black" data-key="69"><span>E</span></li>
+        <li class="key white" data-key="68"><span>D</span></li>
+        <li class="key white" data-key="70"><span>F</span></li>
+        <li class="key black" data-key="84"><span>T</span></li>
+        <li class="key white" data-key="71"><span>G</span></li>
+        <li class="key black" data-key="89"><span>Y</span></li>
+        <li class="key white" data-key="72"><span>H</span></li>
+        <li class="key black" data-key="85"><span>U</span></li>
+        <li class="key white" data-key="74"><span>J</span></li>
+        <li class="key white" data-key="75"><span>K</span></li>
+        <li class="key black" data-key="79"><span>O</span></li>
+        <li class="key white" data-key="76"><span>L</span></li>
+        <li class="key black" data-key="80"><span>P</span></li>
+        <li class="key white" data-key="186"><span>;</span></li>
+      </ul>
+    </div>
+
+    <audio data-key="186" src="./tunes/186.wav"></audio>
+    <audio data-key="65" src="./tunes/65.wav"></audio>
+    <audio data-key="68" src="./tunes/68.wav"></audio>
+    <audio data-key="69" src="./tunes/69.wav"></audio>
+    <audio data-key="70" src="./tunes/70.wav"></audio>
+    <audio data-key="71" src="./tunes/71.wav"></audio>
+    <audio data-key="72" src="./tunes/72.wav"></audio>
+    <audio data-key="74" src="./tunes/74.wav"></audio>
+    <audio data-key="75" src="./tunes/75.wav"></audio>
+    <audio data-key="76" src="./tunes/76.wav"></audio>
+    <audio data-key="79" src="./tunes/79.wav"></audio>
+    <audio data-key="80" src="./tunes/80.wav"></audio>
+    <audio data-key="83" src="./tunes/83.wav"></audio>
+    <audio data-key="84" src="./tunes/84.wav"></audio>
+    <audio data-key="85" src="./tunes/85.wav"></audio>
+    <audio data-key="87" src="./tunes/87.wav"></audio>
+    <audio data-key="89" src="./tunes/89.wav"></audio>
+    <script defer src="/main.js"></script>
+  </body>
+</html>
